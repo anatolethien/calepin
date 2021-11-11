@@ -1,0 +1,63 @@
+[
+    {
+        "name":"Shoyu Ramen",
+        "description":"Une recette peu coûteuse, rapide et facile à faire pour un délicieux bol de ramen.",
+        "image": "/static/images/api/0.png",
+        "diet":{
+            "vegetarian":false,
+            "vegan":false,
+            "gluten-free":false,
+            "lactose-free":true
+        },
+        "servings":1,
+        "time":15,
+        "ingredients":[
+            "1 portion de nouilles",
+            "1 œuf",
+            "1 ciboule",
+            "1 cube de bouillon de poulet",
+            "Sauce soja",
+            "Mirin",
+            "Sucre",
+            "Huile de sésame"
+        ],
+        "directions":[
+            "Faire bouillir l'œuf pendant six à sept minutes. Le refroidir dans de l'eau froide directement pour arrêter la cuisson. Retirer la coquille une fois l'œuf refroidi.",
+            "Dans une casserole, ajouter une cuillère à soupe de sauce soja, une cuillère à café de mirin et une cuillère à café de sucre. Mélanger le tout et chauffer à feu doux. Faire mariner l'œuf dans le tare pendant quelques minutes. Retirer l'œuf puis verser le tare dans le bol.",
+            "Ciseler la ciboule et ajouter la partie blanche dans le bol avec le tare. Ajouter une cuillère à soupe d'huile de sésame, ainsi que le cube de bouillon de poulet émietté au fond du bol.",
+            "Faire bouillir de l'eau. Avant d'y ajouter les nouilles dans l'eau bouillante, verser environ 300ml d'eau dans le bol, puis commencer la cuisson des nouilles. Mélanger le contenu du bol pour obtenir une soupe homogène.",
+            "Une fois les nouilles prêtes, les égoutter puis les ajouter dans le bol. Découper l'œuf en deux et l'ajouter au dessus des nouilles avec la partie verte de la ciboule."
+        ]
+    },
+    {
+        "name":"British Muffins",
+        "description":"Excellents au petit déjeuner ou à l'heure du thé, les muffins sont un délice avec du beurre ou de la confiture.",
+        "image": "/static/images/api/1.png",
+        "diet":{
+            "vegetarian":true,
+            "vegan":false,
+            "gluten-free":false,
+            "lactose-free":false
+        },
+        "servings":12,
+        "time":60,
+        "ingredients":[
+            "625g de farine",
+            "40g de beurre",
+            "300ml de lait",
+            "135ml d'eau",
+            "Sucre",
+            "Sel",
+            "Levure deshydratée",
+            "Semoule fine",
+            "Huile végétale"
+        ],
+        "directions":[
+            "Dans un verre, mélanger le lait tiède, l'eau et la levure et laisser reposer jusqu'à former un mélange homogène.",
+            "Dans un saladier, mélanger la farine, le sucre et le sel puis émietter le beurre dans la farine.",
+            "Incorporer le lait puis pétrir la pâte pendant une dizaine de minutes. La laisser reposer pendant deux heures.",
+            "Après deux heures de repos, dégazer la pâte avec le poing et la diviser en petites boules de 80g environ. Disposer les boules sur une plaque saupoudrée de semoule fine et laisser reposer deux heures.",
+            "Faire toaster les boules de pâtes dans une poêle légèrement huilée pendant cinq minutes pour chaque côté."
+        ]
+    }
+]
