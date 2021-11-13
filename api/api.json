@@ -59,5 +59,31 @@
             "Après deux heures de repos, dégazer la pâte avec le poing et la diviser en petites boules de 80g environ. Disposer les boules sur une plaque saupoudrée de semoule fine et laisser reposer deux heures.",
             "Faire toaster les boules de pâtes dans une poêle légèrement huilée pendant cinq minutes pour chaque côté."
         ]
+    },
+    {
+        "name":"Pâte à pizza",
+        "description":"Épatez vos amis avec une pâte à pizza maison préparée selon la vraie tradition napolitaine!",
+        "image": "/api/images/pate-a-pizza.png",
+        "diet":{
+            "vegetarian":true,
+            "vegan":true,
+            "gluten-free":false,
+            "lactose-free":true
+        },
+        "servings":6,
+        "time":60,
+        "ingredients":[
+            "800g de farine",
+            "500ml d'eau",
+            "25g de sel",
+            "Levure deshydratée"
+        ],
+        "directions":[
+            "Dans un grand saladier, verser l'eau à température ambiante. Verser le sel puis mélanger jusqu'à ce qu'il soit dissous dans l'eau.",
+            "Ajouter une cuillère à café de levure dans le saladier et remuer jusqu'à obtenir un mélanger homogène.",
+            "Incorporer la farine progressivement puis pétrir la pâte jusqu'à ce que la pâte ait absorbé toute la farine.",
+            "Sortir la pâte du saladier puis la pétrir sur une planche jusqu'à obtenir une élasticité et une resistance optimale. Laisser reposer la pâte sous un torchon humide pendant six heures.",
+            "Après six heures de repos, diviser la pâte en six pâtons de taille égale, puis les stocker sur une plaque farinée sous un torchon humide."
+        ]
     }
 ]
