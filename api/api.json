@@ -2,7 +2,7 @@
     {
         "name":"Shoyu Ramen",
         "description":"Une recette peu coûteuse, rapide et facile à faire pour un délicieux bol de ramen.",
-        "image": "/static/images/api/0.png",
+        "image": "/api/images/shoyu-ramen.png",
         "diet":{
             "vegetarian":false,
             "vegan":false,
@@ -11,7 +11,7 @@
         },
         "servings":1,
         "time":15,
-        "ingredients":[
+         "ingredients":[
             "1 portion de nouilles",
             "1 œuf",
             "1 ciboule",
@@ -31,8 +31,8 @@
     },
     {
         "name":"British Muffins",
-        "description":"Excellents au petit déjeuner ou à l'heure du thé, les muffins sont un délice avec du beurre ou de la confiture.",
-        "image": "/static/images/api/1.png",
+        "description":"Excellents au petit déjeuner ou à l'heure du thé, les muffins sont à déguster avec du beurre ou de la confiture.",
+        "image": "/api/images/british-muffins.png",
         "diet":{
             "vegetarian":true,
             "vegan":false,
