@@ -5,17 +5,18 @@ const api = require('../api/api');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.status(200).render('index');
-});
-
-router.get('/recipes', (req, res) => {
-    console.log(api.length);
-    res.status(200).render('recipes', {
+    res.status(200).render('index', {
         recipes: [
             api[Math.floor(Math.random() * api.length)],
             api[Math.floor(Math.random() * api.length)],
             api[Math.floor(Math.random() * api.length)]
         ]
+    });
+});
+
+router.get('/recipes', (req, res) => {
+    res.status(200).render('recipes', {
+        api: api
     });
 });
 

@@ -9,7 +9,21 @@
     <body>
         <%- include("_header") -%>
         <main>
-            main content
+            <article>
+                <h3><a href="/recipes/<%= recipes[0].name.toLowerCase().replace(/\s/g , "-") %>"><%= recipes[0].name %></a></h3>
+                <p><%= recipes[0].description %></p>
+                <img src="<%= recipes[0].image %>">
+            </article>
+            <article>
+                <h3><a href="/recipes/<%= recipes[1].name.toLowerCase().replace(/\s/g , "-") %>"><%= recipes[1].name %></a></h3>
+                <p><%= recipes[1].description %></p>
+                <img src="<%= recipes[1].image %>">
+            </article>
+            <article>
+                <h3><a href="/recipes/<%= recipes[2].name.toLowerCase().replace(/\s/g , "-") %>"><%= recipes[2].name %></a></h3>
+                <p><%= recipes[2].description %></p>
+                <img src="<%= recipes[2].image %>">
+            </article>
         </main>
         <%- include("_footer") -%>
     </body>
