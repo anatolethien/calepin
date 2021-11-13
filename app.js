@@ -16,6 +16,9 @@ app.set('views', './views');
 app.use('/', documents);
 app.use('/', static);
 app.use('/api', api);
+app.use((req, res) => {
+    res.status(404).render('error', {status: 404, error: 'Not Found'});
+});
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
