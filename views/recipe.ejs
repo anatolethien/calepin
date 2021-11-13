@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title><%= name %> - Recipe book</title>
+        <link rel="stylesheet" href="/css/pico.classless.min.css">
+        <link rel="icon" href="/images/pan.svg">
+    </head>
+    <body>
+        <%- include("_header") -%>
+        <main>
+            <h1><%= name %></h1>
+            <p><%= description %></p>
+            <img src="<%= image %>" width="500vw">
+            <h3>Ingrédients</h3>
+            <ul>
+                <% for (var ingredient of ingredients) { %>
+                    <li><%= ingredient %></li>
+                <% } %>
+            </ul>
+            <h3>Préparation</h3>
+            <ol>
+                <% for (var direction of directions) { %>
+                    <li><%= direction %></li>
+                <% } %>
+            </ol>
+        </main>
+        <%- include("_footer") -%>
+    </body>
+</html>
