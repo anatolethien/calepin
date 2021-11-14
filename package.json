@@ -1,6 +1,6 @@
 {
   "name": "recipe-book",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anatolethien/recipe-book/issues"
+    "url": "https://github.com/anatolethien/calepin/issues"
   },
-  "homepage": "https://github.com/anatolethien/recipe-book#readme",
+  "homepage": "https://github.com/anatolethien/calepin#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
