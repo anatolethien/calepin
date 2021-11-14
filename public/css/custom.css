@@ -1,0 +1,33 @@
+.hero {
+    background-color: #394046;
+    background-image: url("/images/kitchen-background.png");
+    background-size: cover;
+}
+
+header {
+  padding: 3rem 0;
+}
+
+header hgroup {
+  margin-bottom: 3rem;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.showcase article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.recipe-header {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+}

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <title><%= name %> - Calepin</title>
-        <link rel="stylesheet" href="/css/pico.classless.min.css">
-        <link rel="icon" href="/images/pan.svg">
+        <link rel="stylesheet" href="/css/pico.css">
+        <link rel="stylesheet" href="/css/custom.css">
     </head>
     <body>
-        <%- include("_header") -%>
-        <main>
+        <div class="hero" data-theme="dark">
+            <%- include("_nav") -%>
+        </div>
+        <main class="container">
             <h1><%= name %></h1>
             <p><%= description %></p>
             <img src="<%= image %>">
@@ -26,5 +28,6 @@
             </ol>
         </main>
         <%- include("_footer") -%>
+        <%- include("_script") -%>
     </body>
 </html>

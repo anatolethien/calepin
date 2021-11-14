@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <title>Recipes - Calepin</title>
-        <link rel="stylesheet" href="/css/pico.classless.min.css">
-        <link rel="icon" href="/images/pan.svg">
+        <link rel="stylesheet" href="/css/pico.css">
+        <link rel="stylesheet" href="/css/custom.css">
     </head>
     <body>
-        <%- include("_header") -%>
-        <main>
+        <div class="hero" data-theme="dark">
+            <%- include("_nav") -%>
+        </div>
+        <section class="showcase">
             <% for (var id in api) { %>
                 <article>
                     <h3><a href="/recipes/<%= api[id].name.toLowerCase().replace(/\s/g , "-") %>"><%= api[id].name %></a></h3>
@@ -16,7 +18,8 @@
                     <img src="<%= api[id].image %>">
                 </article>
             <% } %>
-        </main>
+        </section>
         <%- include("_footer") -%>
+        <%- include("_script") -%>
     </body>
 </html>

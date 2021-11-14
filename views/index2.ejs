@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Index - Calepin</title>
+        <link rel="stylesheet" href="/css/pico.classless.min.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="icon" href="/images/pan.svg">
+    </head>
+    <body>
+        <%- include("_header") -%>
+        <main>
+            <p>À la base personnel, ce site web a pour but de servir de
+            répertoire personnel de recettes tendances à réaliser au quotidien
+            pour épater sa famille ou ses amis! Ce calepin s'oriente vers une
+            cuisine sobre, facile et rapide qui convient tout particulièrement au mode
+            de vie étudiant.</p>
+            <article>
+                <h3><a href="/recipes/<%= recipes[0].name.toLowerCase().replace(/\s/g , "-") %>"><%= recipes[0].name %></a></h3>
+                <p><%= recipes[0].description %></p>
+                <img src="<%= recipes[0].image %>">
+            </article>
+            <article>
+                <h3><a href="/recipes/<%= recipes[1].name.toLowerCase().replace(/\s/g , "-") %>"><%= recipes[1].name %></a></h3>
+                <p><%= recipes[1].description %></p>
+                <img src="<%= recipes[1].image %>">
+            </article>
+            <article>
+                <h3><a href="/recipes/<%= recipes[2].name.toLowerCase().replace(/\s/g , "-") %>"><%= recipes[2].name %></a></h3>
+                <p><%= recipes[2].description %></p>
+                <img src="<%= recipes[2].image %>">
+            </article>
+        </main>
+        <%- include("_footer") -%>
+        <%- include("_script") -%>
+    </body>
+</html>
