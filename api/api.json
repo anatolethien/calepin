@@ -111,5 +111,36 @@
             "Faire chauffer une pôele huilée puis verser de quoi former une fine galette dans la poêle. Retourner la galette lorsque les bords commencent à se détacher de la poêle.",
             "Pour une garniture dite \"complète\", ajouter un œuf au plat, une tranche de jambon déchirée et du fromage rapé. Toutefois, n'importe quelle garniture est en mesure d'offrir une excellente galette."
         ]
+    },
+    {
+        "name":"Männele",
+        "description":"Des petits bonhommes briochés tout droit venus d'Alsace et de ses marchés de Noël.",
+        "image": "/api/images/mannele.png",
+        "diet":{
+            "vegetarian":true,
+            "vegan":false,
+            "gluten-free":false,
+            "lactose-free":false
+        },
+        "servings":6,
+        "time":60,
+         "ingredients":[
+            "500g de farine",
+            "150g de beurre",
+            "125g de sucre",
+            "250ml de lait",
+            "2 œufs",
+            "Sel",
+            "Levure déshydratée",
+            "Pépites de chocolat"
+        ],
+        "directions":[
+            "Dans une tasse, constituer un levain avec la moitié du lait tiède, une cuillère à café de levure déshydratée. Délayer avec de la farine pour former un appareil pâteux. Le laisser reposer au chaud pour qu'il double de volume.",
+            "Dans une bassine, verser la farine, le sucre et une pincée de sel. Incorporer les œufs et le reste du lait tiède. Battre les ingrédients pour optenir une pâte homogène.",
+            "Incorporer le beurre ramolli à la pâte, puis le levain. Recouvrir d'un torchon humide et laisser reposer pendant deux heures.",
+            "Après que la pâte ait levé pendant deux heures, la rompre puis y incorporer les pépites de chocolat. Former six boules de pâtes de taille uniforme.",
+            "Former des petits bonhommes avec les boules de pâte. Les laisser lever pendant une demi-heure sous un torchon humide et à température ambiante.",
+            "Enfourner à 180°C pendant 12 minutes."
+        ]
     }
 ]
