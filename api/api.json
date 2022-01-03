@@ -1,146 +1,177 @@
 [
-    {
-        "name":"Shoyu Ramen",
-        "description":"Une recette peu coûteuse, rapide et facile à faire pour un délicieux bol de ramen.",
-        "image": "/api/images/shoyu-ramen.png",
-        "diet":{
-            "vegetarian":false,
-            "vegan":false,
-            "gluten-free":false,
-            "lactose-free":true
-        },
-        "servings":1,
-        "time":15,
-         "ingredients":[
-            "1 portion de nouilles",
-            "1 œuf",
-            "1 ciboule",
-            "1 cube de bouillon de poulet",
-            "Sauce soja",
-            "Mirin",
-            "Sucre",
-            "Huile de sésame"
-        ],
-        "directions":[
-            "Faire bouillir l'œuf pendant six à sept minutes. Le refroidir dans de l'eau froide directement pour arrêter la cuisson. Retirer la coquille une fois l'œuf refroidi.",
-            "Dans une casserole, ajouter une cuillère à soupe de sauce soja, une cuillère à café de mirin et une cuillère à café de sucre. Mélanger le tout et chauffer à feu doux. Faire mariner l'œuf dans le tare pendant quelques minutes. Retirer l'œuf puis verser le tare dans le bol.",
-            "Ciseler la ciboule et ajouter la partie blanche dans le bol avec le tare. Ajouter une cuillère à soupe d'huile de sésame, ainsi que le cube de bouillon de poulet émietté au fond du bol.",
-            "Faire bouillir de l'eau. Avant d'y ajouter les nouilles dans l'eau bouillante, verser environ 300ml d'eau dans le bol, puis commencer la cuisson des nouilles. Mélanger le contenu du bol pour obtenir une soupe homogène.",
-            "Une fois les nouilles prêtes, les égoutter puis les ajouter dans le bol. Découper l'œuf en deux et l'ajouter au dessus des nouilles avec la partie verte de la ciboule."
-        ]
-    },
-    {
-        "name":"British Muffins",
-        "description":"Excellents au petit déjeuner ou à l'heure du thé, les muffins sont à déguster avec du beurre ou de la confiture.",
-        "image": "/api/images/british-muffins.png",
-        "diet":{
-            "vegetarian":true,
-            "vegan":false,
-            "gluten-free":false,
-            "lactose-free":false
-        },
-        "servings":12,
-        "time":60,
-        "ingredients":[
-            "625g de farine",
-            "40g de beurre",
-            "300ml de lait",
-            "135ml d'eau",
-            "Sucre",
-            "Sel",
-            "Levure deshydratée",
-            "Semoule fine",
-            "Huile végétale"
-        ],
-        "directions":[
-            "Dans un verre, mélanger le lait tiède, l'eau et la levure et laisser reposer jusqu'à former un mélange homogène.",
-            "Dans un saladier, mélanger la farine, le sucre et le sel puis émietter le beurre dans la farine.",
-            "Incorporer le lait puis pétrir la pâte pendant une dizaine de minutes. La laisser reposer pendant deux heures.",
-            "Après deux heures de repos, dégazer la pâte avec le poing et la diviser en petites boules de 80g environ. Disposer les boules sur une plaque saupoudrée de semoule fine et laisser reposer deux heures.",
-            "Faire toaster les boules de pâtes dans une poêle légèrement huilée pendant cinq minutes pour chaque côté."
-        ]
-    },
-    {
-        "name":"Pâte à pizza",
-        "description":"Épatez vos amis avec une pâte à pizza maison préparée selon la vraie tradition napolitaine!",
-        "image": "/api/images/pate-a-pizza.png",
-        "diet":{
-            "vegetarian":true,
-            "vegan":true,
-            "gluten-free":false,
-            "lactose-free":true
-        },
-        "servings":6,
-        "time":60,
-        "ingredients":[
-            "800g de farine",
-            "500ml d'eau",
-            "25g de sel",
-            "Levure deshydratée"
-        ],
-        "directions":[
-            "Dans un grand saladier, verser l'eau à température ambiante. Verser le sel puis mélanger jusqu'à ce qu'il soit dissous dans l'eau.",
-            "Ajouter une cuillère à café de levure dans le saladier et remuer jusqu'à obtenir un mélanger homogène.",
-            "Incorporer la farine progressivement puis pétrir la pâte jusqu'à ce que la pâte ait absorbé toute la farine.",
-            "Sortir la pâte du saladier puis la pétrir sur une planche jusqu'à obtenir une élasticité et une resistance optimale. Laisser reposer la pâte sous un torchon humide pendant six heures.",
-            "Après six heures de repos, diviser la pâte en six pâtons de taille égale, puis les stocker sur une plaque farinée sous un torchon humide."
-        ]
-    },
-    {
-        "name":"Galette Bretonne",
-        "description":"Une recette gourmande et sans gluten pour de délicieuses galettes de sarrasin à garnir selon les envies.",
-        "image": "/api/images/galette-bretonne.png",
-        "diet":{
-            "vegetarian":true,
-            "vegan":true,
-            "gluten-free":true,
-            "lactose-free":true
-        },
-        "servings":6,
-        "time":30,
-        "ingredients":[
-            "200g de farine de sarrasin",
-            "200ml d'eau",
-            "5g de sel",
-            "Huile de colza"
-        ],
-        "directions":[
-            "Dans un grand saladier, verser la farine de sarrasin et le sel. Incorporer l'eau progressivement en battant l'appareil.",
-            "Ajouter un filet d'huile de colza dans l'appareil puis bien le battre pour y faire pénétrer de l'air. Laisser reposer une heure.",
-            "Après une heure de repos, rebattre la pâte pour l'aérer à nouveau.",
-            "Faire chauffer une pôele huilée puis verser de quoi former une fine galette dans la poêle. Retourner la galette lorsque les bords commencent à se détacher de la poêle.",
-            "Pour une garniture dite \"complète\", ajouter un œuf au plat, une tranche de jambon déchirée et du fromage rapé. Toutefois, n'importe quelle garniture est en mesure d'offrir une excellente galette."
-        ]
-    },
-    {
-        "name":"Männele",
-        "description":"Des petits bonhommes briochés tout droit venus d'Alsace et de ses marchés de Noël.",
-        "image": "/api/images/mannele.png",
-        "diet":{
-            "vegetarian":true,
-            "vegan":false,
-            "gluten-free":false,
-            "lactose-free":false
-        },
-        "servings":6,
-        "time":60,
-         "ingredients":[
-            "500g de farine",
-            "150g de beurre",
-            "125g de sucre",
-            "250ml de lait",
-            "2 œufs",
-            "Sel",
-            "Levure déshydratée",
-            "Pépites de chocolat"
-        ],
-        "directions":[
-            "Dans une tasse, constituer un levain avec la moitié du lait tiède, une cuillère à café de levure déshydratée. Délayer avec de la farine pour former un appareil pâteux. Le laisser reposer au chaud pour qu'il double de volume.",
-            "Dans une bassine, verser la farine, le sucre et une pincée de sel. Incorporer les œufs et le reste du lait tiède. Battre les ingrédients pour optenir une pâte homogène.",
-            "Incorporer le beurre ramolli à la pâte, puis le levain. Recouvrir d'un torchon humide et laisser reposer pendant deux heures.",
-            "Après que la pâte ait levé pendant deux heures, la rompre puis y incorporer les pépites de chocolat. Former six boules de pâtes de taille uniforme.",
-            "Former des petits bonhommes avec les boules de pâte. Les laisser lever pendant une demi-heure sous un torchon humide et à température ambiante.",
-            "Enfourner à 180°C pendant 12 minutes."
-        ]
-    }
+	{
+		"name": "Shoyu Ramen",
+		"description": "Une recette peu coûteuse, rapide et facile à faire pour un délicieux bol de ramen.",
+		"image": "/api/images/shoyu-ramen.png",
+		"diet": {
+			"vegetarian": false,
+			"vegan": false,
+			"gluten-free": false,
+			"lactose-free": true
+		},
+		"servings": 1,
+		"time": 15,
+		"ingredients": [
+			"1 portion de nouilles",
+			"1 œuf",
+			"1 ciboule",
+			"1 cube de bouillon de poulet",
+			"Sauce soja",
+			"Mirin",
+			"Sucre",
+			"Huile de sésame"
+		],
+		"directions": [
+			"Faire bouillir l'œuf pendant six à sept minutes. Le refroidir dans de l'eau froide directement pour arrêter la cuisson. Retirer la coquille une fois l'œuf refroidi.",
+			"Dans une casserole, ajouter une cuillère à soupe de sauce soja, une cuillère à café de mirin et une cuillère à café de sucre. Mélanger le tout et chauffer à feu doux. Faire mariner l'œuf dans le tare pendant quelques minutes. Retirer l'œuf puis verser le tare dans le bol.",
+			"Ciseler la ciboule et ajouter la partie blanche dans le bol avec le tare. Ajouter une cuillère à soupe d'huile de sésame, ainsi que le cube de bouillon de poulet émietté au fond du bol.",
+			"Faire bouillir de l'eau. Avant d'y ajouter les nouilles dans l'eau bouillante, verser environ 300ml d'eau dans le bol, puis commencer la cuisson des nouilles. Mélanger le contenu du bol pour obtenir une soupe homogène.",
+			"Une fois les nouilles prêtes, les égoutter puis les ajouter dans le bol. Découper l'œuf en deux et l'ajouter au dessus des nouilles avec la partie verte de la ciboule."
+		]
+	},
+	{
+		"name": "British Muffins",
+		"description": "Excellents au petit déjeuner ou à l'heure du thé, les muffins sont à déguster avec du beurre ou de la confiture.",
+		"image": "/api/images/british-muffins.png",
+		"diet": {
+			"vegetarian": true,
+			"vegan": false,
+			"gluten-free": false,
+			"lactose-free": false
+		},
+		"servings": 12,
+		"time": 60,
+		"ingredients": [
+			"625g de farine",
+			"40g de beurre",
+			"300ml de lait",
+			"135ml d'eau",
+			"Sucre",
+			"Sel",
+			"Levure deshydratée",
+			"Semoule fine",
+			"Huile végétale"
+		],
+		"directions": [
+			"Dans un verre, mélanger le lait tiède, l'eau et la levure et laisser reposer jusqu'à former un mélange homogène.",
+			"Dans un saladier, mélanger la farine, le sucre et le sel puis émietter le beurre dans la farine.",
+			"Incorporer le lait puis pétrir la pâte pendant une dizaine de minutes. La laisser reposer pendant deux heures.",
+			"Après deux heures de repos, dégazer la pâte avec le poing et la diviser en petites boules de 80g environ. Disposer les boules sur une plaque saupoudrée de semoule fine et laisser reposer deux heures.",
+			"Faire toaster les boules de pâtes dans une poêle légèrement huilée pendant cinq minutes pour chaque côté."
+		]
+	},
+	{
+		"name": "Pâte à pizza",
+		"description": "Épatez vos amis avec une pâte à pizza maison préparée selon la vraie tradition napolitaine!",
+		"image": "/api/images/pate-a-pizza.png",
+		"diet": {
+			"vegetarian": true,
+			"vegan": true,
+			"gluten-free": false,
+			"lactose-free": true
+		},
+		"servings": 6,
+		"time": 60,
+		"ingredients": [
+			"800g de farine",
+			"500ml d'eau",
+			"25g de sel",
+			"Levure deshydratée"
+		],
+		"directions": [
+			"Dans un grand saladier, verser l'eau à température ambiante. Verser le sel puis mélanger jusqu'à ce qu'il soit dissous dans l'eau.",
+			"Ajouter une cuillère à café de levure dans le saladier et remuer jusqu'à obtenir un mélanger homogène.",
+			"Incorporer la farine progressivement puis pétrir la pâte jusqu'à ce que la pâte ait absorbé toute la farine.",
+			"Sortir la pâte du saladier puis la pétrir sur une planche jusqu'à obtenir une élasticité et une resistance optimale. Laisser reposer la pâte sous un torchon humide pendant six heures.",
+			"Après six heures de repos, diviser la pâte en six pâtons de taille égale, puis les stocker sur une plaque farinée sous un torchon humide."
+		]
+	},
+	{
+		"name": "Galette Bretonne",
+		"description": "Une recette gourmande et sans gluten pour de délicieuses galettes de sarrasin à garnir selon les envies.",
+		"image": "/api/images/galette-bretonne.png",
+		"diet": {
+			"vegetarian": true,
+			"vegan": true,
+			"gluten-free": true,
+			"lactose-free": true
+		},
+		"servings": 6,
+		"time": 30,
+		"ingredients": [
+			"200g de farine de sarrasin",
+			"200ml d'eau",
+			"5g de sel",
+			"Huile végétale"
+		],
+		"directions": [
+			"Dans un grand saladier, verser la farine de sarrasin et le sel. Incorporer l'eau progressivement en battant l'appareil.",
+			"Ajouter un filet d'huile de colza dans l'appareil puis bien le battre pour y faire pénétrer de l'air. Laisser reposer une heure.",
+			"Après une heure de repos, rebattre la pâte pour l'aérer à nouveau.",
+			"Faire chauffer une pôele huilée puis verser de quoi former une fine galette dans la poêle. Retourner la galette lorsque les bords commencent à se détacher de la poêle.",
+			"Pour une garniture dite \"complète\", ajouter un œuf au plat, une tranche de jambon déchirée et du fromage rapé. Toutefois, n'importe quelle garniture est en mesure d'offrir une excellente galette."
+		]
+	},
+	{
+		"name": "Männele",
+		"description": "Des petits bonhommes briochés tout droit venus d'Alsace et de ses marchés de Noël.",
+		"image": "/api/images/mannele.png",
+		"diet": {
+			"vegetarian": true,
+			"vegan": false,
+			"gluten-free": false,
+			"lactose-free": false
+		},
+		"servings": 6,
+		"time": 60,
+		"ingredients": [
+			"500g de farine",
+			"150g de beurre",
+			"125g de sucre",
+			"250ml de lait",
+			"2 œufs",
+			"Sel",
+			"Levure déshydratée",
+			"Pépites de chocolat"
+		],
+		"directions": [
+			"Dans une tasse, constituer un levain avec la moitié du lait tiède, une cuillère à café de levure déshydratée. Délayer avec de la farine pour former un appareil pâteux. Le laisser reposer au chaud pour qu'il double de volume.",
+			"Dans une bassine, verser la farine, le sucre et une pincée de sel. Incorporer les œufs et le reste du lait tiède. Battre les ingrédients pour optenir une pâte homogène.",
+			"Incorporer le beurre ramolli à la pâte, puis le levain. Recouvrir d'un torchon humide et laisser reposer pendant deux heures.",
+			"Après que la pâte ait levé pendant deux heures, la rompre puis y incorporer les pépites de chocolat. Former six boules de pâtes de taille uniforme.",
+			"Former des petits bonhommes avec les boules de pâte. Les laisser lever pendant une demi-heure sous un torchon humide et à température ambiante.",
+			"Enfourner à 180°C pendant 12 minutes."
+		]
+	},
+	{
+		"name": "Fish and chips",
+		"description": "Un filet de poisson frit servi avec ses frites et sa mayonnaise. Le déjeuner britannique par excellence.",
+		"image": "/api/images/fish-and-chips.png",
+		"diet": {
+			"vegetarian": false,
+			"vegan": false,
+			"gluten-free": false,
+			"lactose-free": true
+		},
+		"servings": 2,
+		"time": 40,
+		"ingredients": [
+			"200g de filet de cabillaud",
+			"200g de farine",
+			"330ml de bière",
+			"4 pommes de terre",
+			"1 œuf",
+			"Sel",
+			"Poivre",
+			"Huile végétale"
+		],
+		"directions": [
+			"Dans une bassine, verser la farine, l'œuf et de la bière pour former la pâte. Saler et poivrer, puis laisser reposer pour que se forment des bulles d'air à l'intérieur.",
+			"Éplucher les pommes de terre puis les découper en batonnets. Les faire bouillir pendant cinq minutes pour les blanchir.",
+			"Découper le poisson en petits filets de taille égale. Assaisonner les filets de chaque côté puis les recouvrir de farine. Jeter les filets de poisson dans la pâte en les enveloppant entièrement.",
+			"Dans une poêle, faire chauffer de l'huile végétale à feu moyen. Faire frire le poisson en le gardant submergé dans l'huile. Après quatre minutes, le retourner. Après quatre autres minutes, retirer le poisson et l'égoutter.",
+			"Faire frire les frites de pomme de terre dans l'huile à feu moyen jusqu'à obtenir une couleur dorée.",
+			"Servir le poisson et les frites avec une sauce mayonnaise et le reste de la bière."
+		]
+	}
 ]
